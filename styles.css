@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'Font1';
+    src: url('AlexBrush-Regular.ttf') format('ttf'),
+         url('AlexBrush-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('MessyHandwritten-Regular.ttf') format('ttf'),
+         url('MessyHandwritten-Regular.ttf') format('ttf');
+}
+body {
+    background: url('pixelcut-export.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Font2', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.title-font, .valentine-title {
+    font-family: 'Font1', cursive;
+}
+
+.valentine-title {
+    text-align: center;
+    font-size: 3em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.header-image {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header-image img {
+    width: 60%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(255, 105, 180, 0.5);
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 1100px;
+}
+
+.valentine-list {
+    background: rgba(255, 182, 193, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    width: 45%;
+    text-align: left;
+    box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.2);
+}
+
+.personal-info {
+    background: rgba(255, 182, 193, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    width: 45%;
+    box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.2);
+}
+
+.maya-k-chino {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 105, 180, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.3);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="valentine-title">Happy Valentine's Day</h1>
+    <div class="header-image">
+        <img src="pixelcut-export.png" alt="Romantic Image">
+    </div>
+    <div class="content-container">
+    
+        <section class="valentine-list">
+            <h2 class="title-font">Valentine's Day List</h2>
+            <ul>
+                <li>Write a love letter</li>
+                <li>Buy chocolates</li>
+                <li>Plan a romantic dinner</li>
+                <li>Go on a surprise date</li>
+                <li>Watch a romantic movie</li>
+            </ul>
+        </section>
+
+    
+        <section class="personal-info">
+            <h2 class="title-font">Personal Information</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" placeholder="Your Name"></td>
+                </tr>
+                <tr>
+                    <th>Partner's Name</th>
+                    <td><input type="text" placeholder="Your Partner's Name"></td>
+                </tr>
+                <tr>
+                    <th>Favorite Memory</th>
+                    <td><textarea placeholder="Write your best moment together"></textarea></td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+
+    <section class="maya-k-chino">
+        <h2 class="title-font">Maya Ko Chino</h2>
+        <form>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date">
+            
+            <label for="gift">Gift Preference:</label>
+            <select id="gift" name="gift">
+                <option value="chocolate">Chocolate</option>
+                <option value="flowers">Flowers</option>
+                <option value="letter">Love Letter</option>
+                <option value="dinner">Romantic Dinner</option>
+            </select>
+
+            <label for="message">Special Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write something sweet..."></textarea>
+            
+            <button type="submit">Send Love</button>
+        </form>
+    </section>
+
+</body>
+</html>
