@@ -1,77 +1,63 @@
-
-@font-face {
-    font-family: 'Font1';
-    src: url('AlexBrush-Regular.ttf') format('ttf'),
-         url('AlexBrush-Regular.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'Font2';
-    src: url('MessyHandwritten-Regular.ttf') format('ttf'),
-         url('MessyHandwritten-Regular.ttf') format('ttf');
-}
 body {
-    background: url('pixelcut-export.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Font2', sans-serif; 
-    margin: 0;
-    padding: 0;
-}
-
-.title-font, .valentine-title {
-    font-family: 'Font1', cursive;
-}
-
-.valentine-title {
-    text-align: center;
-    font-size: 3em;
-    color: #000000;
-    margin-top: 20px;
-}
-
-.header-image {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.header-image img {
-    width: 60%;
-    max-width: 400px;
-    border-radius: 15px;
-    box-shadow: 0px 5px 20px rgba(255, 105, 180, 0.5);
-}
-
-.content-container {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: #e5e5e5;
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 40px auto;
-    max-width: 1100px;
-}
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
-.valentine-list {
-    background: rgba(255, 182, 193, 0.3);
-    padding: 20px;
-    border-radius: 15px;
-    width: 45%;
-    text-align: left;
-    box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.2);
-}
+  .app {
+    background-color: #c9b2d9;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #3018cf;
+    border-radius: 8px;
+    padding: 15px;
+  }
 
-.personal-info {
-    background: rgba(255, 182, 193, 0.3);
-    padding: 20px;
-    border-radius: 15px;
-    width: 45%;
-    box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.2);
-}
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .fa-plus {
+    background-color: #18cf55a2;
+    padding: 3px;
+    border-radius: 3px;
+  }
 
-.maya-k-chino {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    background: rgba(255, 105, 180, 0.2);
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0px 5px 15px rgba(255, 105, 180, 0.3);
-}
+  #msg {
+    color: red;
+  }
+
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #tasks div {
+    border: 3px solid #3018cf;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+  }
+
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
